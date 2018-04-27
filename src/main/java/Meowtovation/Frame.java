@@ -1,4 +1,4 @@
-package OurGame;
+package Meowtovation;
 
 import javax.swing.*;
 
@@ -7,7 +7,8 @@ public class Frame {
         JFrame frame=new JFrame("2D Game");
         frame.add(new Board());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(1200,365);
+        frame.setSize(1300,620);
         frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
     }
 }

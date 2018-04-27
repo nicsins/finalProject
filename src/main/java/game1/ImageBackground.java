@@ -15,7 +15,7 @@ public class ImageBackground extends JFrame{
         label1=new JLabel(image1);
         add(label1);
 
-        image2=new ImageIcon(getClass().getResource("Dude.jpg"));
+        image2=new ImageIcon(getClass().getResource("Kitty.jpg"));
         label2=new JLabel(image2);
         add(label2);
 
